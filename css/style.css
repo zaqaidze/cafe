@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nawili1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/main_image.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.zedanawili {
+    display: flex;
+}
+
+.logo {
+    padding-left: 420px
+}
+
+.list ul li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.list ul li {
+    list-style: none;
+    font-family: myfont;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face{
+    font-family: myfont;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+.list ul {
+    text-transform: uppercase;
+    display: flex;
+    gap: 50px
+}
+
+.list {
+    padding-left: 300px;
+    padding-top: 70px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+.shuanawili {
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.shuanawili h1 {
+    font-size: 65px;
+}
+
+.shuanawili p {
+    font-size: 40px
+}
+
+.qvedanawili p{
+    color: #fea100;
+    text-transform: uppercase;
+}
+
+.qvedanawili h1 {
+    font-size: 55px;
+    color: white;
+    font-family: myfont;
+    src: url(../fonts/Montserrat-ExtraBold.ttf)
+}
+
+@font-face{
+    font-family: myfont;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+.qvedanawili {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mainiszedanawili h1{
+    text-align: center;
+    font-family: myfont;
+    src: url(../fonts/Montserrat-Light.ttf)
+}
+
+@font-face{
+    font-family: myfont;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+.mainiszedanawili {
+    padding-top: 100px;
+}
+
+.pizzebi {
+    display: flex;
+    justify-content: center;
+    gap: 35px;  
+    padding-top: 30px;
+}
+
+.pizza1img img{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pizza1img img:hover {
+     width: 300px;
+     transition: 0.3s ease-in-out;
+
+}
+
+.pizza2img img{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pizza2img img:hover {
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+
+.pizza3img img{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pizza3img img:hover {
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+
+.pizza4img img{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pizza4img img:hover {
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.pizza1 {
+    height: 320px;
+    box-shadow: 10px 0px 30px 0px #888888;
+}
+.pizza2 {
+    height: 320px;
+    box-shadow: 10px 0px 30px 0px #888888;
+}
+.pizza3 {
+    height: 320px;
+    box-shadow: 10px 0px 30px 0px #888888;
+}
+.pizza4 {
+    height: 320px;
+    box-shadow: 10px 0px 30px 0px #888888;
+}
+
+.pizza1 p {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.pizza2 p {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.pizza3 p {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.pizza4 p {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.pizza1 .price {
+    display: flex;
+    color: #fea100;
+    padding-left: 17px;
+    padding-top: 10px;
+}
+.pizza2 .price {
+    display: flex;
+    color: #fea100;
+    padding-left: 17px;
+    padding-top: 10px;
+}
+.pizza3 .price {
+    display: flex;
+    color: #fea100;
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.pizza4 .price {
+    display: flex;
+    color: #fea100;
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+
+.cxrili table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    border: 4px solid white;
+    margin-top: 50px;
+}
+
+.cxrili table tr td {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #fea100;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.cxrili table tr {
+    border: 1px solid white;
+}
+
+.cxrili table tr td strong {
+    font-size: 23px;
+}
+.cxrili table tr td span {
+    color: white;
+    font-size: 20px;
+}
+
+
+.mainisshuanawili {
+    background-image: linear-gradient(#373844, #5a5b64);
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+}
+ 
+.mainisshuanawili h1 {
+    color: white;
+    padding-top: 100px;
+    padding-left: 45%;
+}
+
+.mainisqvedanawili {
+    font-family: myfont;
+    src: url(../fonts/Montserrat-Light.ttf);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.video {
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+.mail {
+
+    position: absolute;
+    left: 64.3%;
+    color: #fea100;
+    margin-top: 17px;
+
+}
+
+
+footer {
+    height: 150px;
+    background-color: #373844;
+    margin-top: 50px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+footer .footer .copyright p {
+    color: #adb2b7;
+    font-family: myfont;
+    src: url(../fonts/Montserrat-Light.ttf);
+    padding-top: 20px
+}
+
+footer .footer .copyright p span {
+    color: white;
+}
+
+footer .footer .inputbutton  {
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+    
+}
+
+footer .footer .inputbutton form {
+    border: 2px solid #52535e;
+    border-radius: 5px;
+}
+
+footer .footer .inputbutton form input {
+    height: 50px;
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    padding-left: 25px;
+
+}
+
+footer .footer .inputbutton button{
+    background-color: #fea100;
+    border: none;
+    color: white;
+    width: 150px;
+}

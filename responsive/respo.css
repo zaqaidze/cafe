@@ -1,0 +1,149 @@
+@media only screen and (max-width:1650px){
+    .nawili1 .zedanawili {
+        flex-direction: column;
+        
+    }
+    .nawili1 .zedanawili .logo {
+        padding: 0;
+        text-align: center;
+    }
+
+    .nawili1 .zedanawili .list {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        height: 200px;
+        text-align: center;
+    }
+
+
+    footer .footer {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    footer .footer .inputbutton {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .mail {
+        left: 38%;
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .mail {
+        left: 36.5%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1230px){
+    .main .mainiszedanawili .pizzebi {
+        flex-direction: column;
+        width: 280px;
+        margin: auto
+    }
+
+    .mail {
+        left: 34%;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .mail {
+        left: 31%;
+    }
+}
+
+
+
+@media only screen and (max-width:770px){
+    .nawili1 .zedanawili .list nav ul  {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .nawili1 .zedanawili .list nav ul li a  {
+        display: block;
+        text-align: center;
+    }
+    
+    .nawili1 {
+        height: 900px;
+    }
+
+    .video video {
+        width: 460px;
+        height: 300px;
+    }
+
+    .cxrili table {
+        width: 70%;
+
+    }
+
+    .cxrili table tr td {
+        font-size: 12px;
+    }
+
+    .cxrili table tr td strong {
+        font-size: 17px;
+    }
+
+    .cxrili table tr td span {
+        font-size: 14px;
+    }
+
+    .mail {
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width:620px){
+    .shuanawili h1{
+        font-size: 50px;
+    }
+
+    .shuanawili p {
+        font-size: 30px;
+    }
+
+    .qvedanawili h1{
+        font-size: 25px;
+    }
+
+    .mail {
+        left: 18%;
+    }
+}
+
+@media only screen and (max-width:460px){
+    .video video {
+        width: 360px;
+        height: 200px;
+    }
+
+
+    .mail {
+        left: 8%;
+    }
+}
+
+
+@media only screen and (max-width:425px){
+    .mail {
+        left: 5%;
+    }
+}
